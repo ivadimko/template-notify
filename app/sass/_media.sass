@@ -1,0 +1,154 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px)
+	.main-features
+		.features-wrap
+			.feature
+				margin-left: 60px
+	video[poster]
+		height: 100%
+		width: 102%
+	.videoContainer
+		padding-bottom: 0
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px)
+	.main-header
+		text-align: center
+		padding-bottom: 60px
+		.logo-wrap
+			margin-top: 60px
+	.main-features
+		.features-wrap
+			padding-bottom: 10px
+			.feature
+				display: block
+				max-width: 100%
+				margin-left: 0
+				margin-bottom: 20px
+				padding-bottom: 20px
+				border-bottom: 1px solid rgba($main-color, .5)
+				overflow: hidden
+				h3
+					margin: 0
+				.icon
+					
+					float: left
+					margin-right: 25px
+	.promo
+		.news-wrap
+			text-align: center
+		.videoContainer
+			height: 350px
+			max-width: 100%
+			margin-top: 30px
+			padding-bottom: 53px
+	video[poster]
+		height: 136%
+		width: 100%
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.promo
+		.videoContainer
+			height: 280px
+	footer
+		.contact-links 
+			line-height: 60px
+			ul 
+				li 
+					width: 30%
+					margin: 0
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.promo
+		.news-wrap
+			form
+				text-align: center
+				.email
+					font-size: 14px
+				.button
+					font-size: 16px
+					padding: 0 25px
+		.videoContainer
+			height: 200px
+			.control
+				.btnPlay
+					display: inline-block
+					width: 40px
+					height: 33px
+					font-size: 15px
+					.icon-play,
+					.icon-pause
+						&:before
+							left: 10px
+							top: -1px
+					&:hover
+						.icon-play,
+						.icon-pause
+							&:before
+								left: 10px
+								top: -2px
+								font-size: 16px
+				.btmBar
+					margin-left: 0
+				.volume
+					width: 50px
+	footer
+		.contact-links 
+			line-height: 30px
+			ul 
+				li 
+					width: 30%
+					margin: 0
+					&:nth-child(1)
+						border-bottom: 1px solid $main-color
+					&:nth-child(2)
+						border-bottom: 1px solid $main-color
+					&:nth-child(3)
+						border-bottom: 1px solid $main-color
+
+					a 
+						font-size: 12px
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	.promo
+		.news-wrap
+			form
+				input
+					outline: none
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
